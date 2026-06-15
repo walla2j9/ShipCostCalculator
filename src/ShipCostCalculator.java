@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class ShipCostCalculator {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner in = new Scanner(System.in);
         double itemPrice = 0.0;
         double shippingCost = 0.0;
@@ -24,7 +24,7 @@ public class ShipCostCalculator {
         } else {
             invalidInput = in.nextLine();
             System.out.println("Invalid input: " + invalidInput);
-            System.out.println("Run the program again and enter a valid numeric amount!");
+            System.out.println("Please input a valid number.");
         }
     }
 }
